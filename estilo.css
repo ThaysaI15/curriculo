@@ -1,12 +1,15 @@
 body{
-    font-size: 15px;
+    font-size: 20px;
+    background-color: rgb(161, 186, 211)
 }
 
 header{
     display: flex;/*definir o meu layout flexível para eu alterar os elementos*/
     align-items: center; /*alinha os itens verticalmente ao centro */
     justify-content: space-between;
-    background-color:rgb(161, 186, 211)
+    background-color:rgb(161, 186, 211);
+    /* border: 1px solid;
+    border-radius: 10px; */
 }
 header .profile img{
     width: 100px;
@@ -19,7 +22,7 @@ header .links a{
     color: #0077b6;
     font-weight: bold;
     margin: 0 10px;
-    font-size: 15px;
+    font-size: 25px;
 }
 .descricao{
     text-align: center;
@@ -38,7 +41,7 @@ header .links a{
     width: 30%;
     background-color:#0077b6;
     padding: 15px;
-    border: 1px solid;
+    border: 1px solid #000000;
     border-radius: 10px;
     padding: 7px;
 }
@@ -63,7 +66,3 @@ form input{
     border: 1px solid #ddd;
     border-radius: 8px;
 }
-/* 
-booder{
-
-} */
