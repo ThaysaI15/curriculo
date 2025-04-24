@@ -1,3 +1,11 @@
+*{
+    .special-gothic-regular {
+    font-family: "Special Gothic", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+  }  
+}
+
 body{
     font-size: 20px;
     background-color: rgb(161, 186, 211)
@@ -23,6 +31,15 @@ header .links a{
     font-weight: bold;
     margin: 0 10px;
     font-size: 25px;
+    font-family: "Raleway";
+}
+
+h2{
+    .special-gothic-regular {
+        font-family: "Special Gothic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
 }
 .descricao{
     text-align: center;
@@ -44,6 +61,7 @@ header .links a{
     border: 1px solid #000000;
     border-radius: 10px;
     padding: 7px;
+    font-family: "Raleway";
 }
 
 .falacomigo{

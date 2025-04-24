@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Special+Gothic&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilo.css" />
@@ -10,7 +13,7 @@
     <header>
       <div class="profile">
         <img src="thaysa.jpeg" 
-        alt="Selfie de menina"/>
+        alt="Foto de menina"/>
       </div>
       <div class="links">
         <a target="_blank" href="https://github.com/ThaysaI15">GitHub</a>
@@ -22,6 +25,9 @@
     </header>
     <section class="descricao">
         <p>Aluna do segundo ano do IFMT - Campus Campo Verde</p>
+        <P> 
+          <button id = "botao"> Continue Aqui</button>
+        </P>
     </section>
 
     <section class="conteudo">
@@ -45,21 +51,26 @@
     <section class="falacomigo">
       <h2>Interessado no meu currículo?</h2>
     
-    <form>
-      <label for = "email"> Email:</label>
-      <input placeholder="exemploemail@gmail.com" type="email" id="email" name="email" required>
-      <label for = "telefone"> Telefone:</label>
-      <input placeholder="(xx)xxxxx-xxxx" type="telefone" id="telefone" name="telefone" required>
-      <button type="submit"> Entrar em contato</button>
-    </form>
-  </section>
+      <form action="https://formspree.io/f/mrbqgewn"
+      method="POST">
+        <label for = "email"> Email:</label>
+        <input placeholder="exemploemail@gmail.com" type="email" id="email" name="email" required>
+        <label for = "telefone"> Telefone:</label>
+        <input placeholder="(xx)xxxxx-xxxx" type="telefone" id="telefone" name="telefone" required>
+        <button id = "botao" type="submit"> Entrar em contato</button>
+      </form>
+    </section>
 
 
     <section class="conteudo">
-      <div class="bloco">
-        <h2>Sobre mim</h2>
-        <p>Meu nome é Thaysa Miyasak Rezende, tenho 16 anos e sou estudante do segundo ano Técnico em Informática no IFMT - Campus Campo Verde. Gosto de fazer as unhas e atualmente pretendo fazer o curso de direito.</p>
+      <div class="bloco" id = "Mais-conteudo">
+        <div id = "card">
+          <h2>Sobre mim</h2>
+          <p>Meu nome é Thaysa Miyasak Rezende, tenho 16 anos e sou estudante do segundo ano Técnico em Informática no IFMT - Campus Campo Verde. Gosto de fazer as unhas e atualmente pretendo fazer o curso de direito.
+          </p>
+        </div>
       </div>
+      
       <div class="bloco">
         <h2>Minha Maior Inspiração:</h2> 
         <iframe width="300" height="200" src="https://www.youtube.com/embed/fkKHyWn6m34?si=-wL6Tiq8JuiLxYJP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -70,6 +81,6 @@
         <p>"Mantenha seus pensamentos positivos, porque seus pensamentos tornam-se suas palavras. Mantenha suas palavras positivas, porque suas palavras tornam-se suas atitudes. Mantenha suas atitudes positivas, porque suas atitudes tornam-se seus hábitos. Mantenha seus hábitos positivos, porque seus hábitos tornam-se seus valores. Mantenha seus valores positivos, porque seus valores... Tornam-se seu destino."</p>
       </div>
     </section>
-
+    <script src = "index.js"></script>
   </body>
 </html>
